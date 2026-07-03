@@ -139,15 +139,15 @@ def limpiar_scripts(data):
     return quitados
 
 
-def corregir_overlays(gen, home, es_esta_maquina):
-    """Apunta cada fuente de overlay a OVERLAY_HTML (bajo el home destino) con
+def corregir_overlays(gen, raiz, verificar_disco):
+    """Apunta cada fuente de overlay a OVERLAY_HTML (bajo la raíz del show) con
     su query string de layout.
 
     Devuelve la lista de overlays corregidos. Idempotente: si la fuente ya
     apunta a la URL correcta, no la toca.
     """
-    ruta = os.path.join(home, OVERLAY_HTML)
-    if es_esta_maquina and not os.path.exists(ruta):
+    ruta = os.path.join(raiz, OVERLAY_HTML)
+    if verificar_disco and not os.path.exists(ruta):
         advertir(f"el overlay no existe en disco: {ruta}")
     base_url = "file://" + pathname2url(ruta)
     corregidos = []
@@ -175,18 +175,25 @@ def main():
     parser.add_argument("temas", help="JSON con la lista de temas")
     parser.add_argument("-o", "--output", required=True, help="Archivo de salida")
     parser.add_argument(
-        "--home",
-        default=os.path.expanduser("~"),
-        help="Home de la máquina destino (default: el de esta máquina). "
-        "Toda ruta /Users/<usuario>/... del collection se re-rootea a este home, "
-        "y las rutas relativas del JSON de temas se resuelven contra él.",
+        "--root",
+        default=RAIZ_SHOW,
+        help=f"Raíz del show, idéntica en todas las máquinas (default: {RAIZ_SHOW}). "
+        "Toda ruta del collection y las rutas relativas del JSON de temas se "
+        "anclan a esta raíz, así el mismo output sirve en cualquier computador "
+        "que tenga el symlink: ln -sfn ~/Content/fail-fast-show " + RAIZ_SHOW,
     )
     args = parser.parse_args()
 
-    home = args.home.rstrip("/")
-    if not home.startswith("/"):
-        morir(f"--home debe ser una ruta absoluta: {args.home}")
-    es_esta_maquina = home == os.path.expanduser("~")
+    raiz = args.root.rstrip("/")
+    if not raiz.startswith("/"):
+        morir(f"--root debe ser una ruta absoluta: {args.root}")
+    verificar_disco = os.path.isdir(raiz)
+    if not verificar_disco:
+        advertir(
+            f"la raíz '{raiz}' no existe en esta máquina; no se verificará que "
+            f"imágenes y overlay existan. Créala con: "
+            f"ln -sfn ~/Content/fail-fast-show {raiz}"
+        )
 
     if os.path.abspath(args.output) in (os.path.abspath(args.base), os.path.abspath(args.temas)):
         morir("el archivo de salida no puede ser uno de los archivos de entrada")
@@ -237,7 +244,8 @@ def main():
 
     scene_order = data.setdefault("scene_order", [])
 
-    overlays_corregidos = corregir_overlays(gen, home, es_esta_maquina)
+    overlays_corregidos = corregir_overlays(gen, raiz, verificar_disco)
+    scripts_quitados = limpiar_scripts(data)
 
     # --- Procesar temas ---
     procesados, saltados, escenas_creadas = [], [], []
@@ -258,8 +266,8 @@ def main():
 
         imagen = tema["image"]
         if not imagen.startswith("/"):
-            imagen = os.path.join(home, imagen)
-        if es_esta_maquina and not os.path.exists(imagen):
+            imagen = os.path.join(raiz, imagen)
+        if verificar_disco and not os.path.exists(imagen):
             advertir(f"la imagen del tema '{suf}' no existe en disco: {imagen}")
 
         # Clonar Title y Subtitle
@@ -320,8 +328,8 @@ def main():
     fecha = datetime.date.today().isoformat()
     data["name"] = f"{data.get('name', 'scenes')}-{fecha}"
 
-    # Re-rootear todas las rutas absolutas al home destino
-    data = re_rootear(data, home)
+    # Re-rootear a la raíz compartida toda ruta del show que traiga el export
+    data = re_rootear(data, raiz)
 
     try:
         with open(args.output, "w", encoding="utf-8") as f:
@@ -338,7 +346,9 @@ def main():
     print(f"  Overlays corregidos ({len(overlays_corregidos)}):")
     for o in overlays_corregidos or ["    (ninguno, ya estaban corregidos)"]:
         print(f"    {o}")
-    print(f"  Home destino: {home}" + ("" if es_esta_maquina else " (otra máquina; no se verificó que las imágenes existan)"))
+    print(f"  Raíz del show: {raiz}" + ("" if verificar_disco else " (no existe en esta máquina)"))
+    if scripts_quitados:
+        print(f"  Scripts con ruta de usuario quitados de modules: {', '.join(scripts_quitados)}")
     print(f"  Archivo de salida: {args.output}")
 
 
