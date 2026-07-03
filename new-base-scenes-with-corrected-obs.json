@@ -239,7 +239,7 @@
         },
         "scripts-tool": [
             {
-                "path": "/Users/juanse/Downloads/obs_crear_escenas_fail_fast.py",
+                "path": "/Users/mache/Downloads/obs_crear_escenas_fail_fast.py",
                 "settings": {}
             }
         ]
@@ -2024,7 +2024,7 @@
             "settings": {
                 "files": [
                     {
-                        "value": "/Users/juanse/Content/fail-fast-show/3-julio-2026/images/1.png",
+                        "value": "/Users/mache/Content/fail-fast-show/3-julio-2026/images/1.png",
                         "uuid": "571569fe-6947-4b0a-882e-8663b76cba32",
                         "selected": false,
                         "hidden": false
@@ -2065,7 +2065,7 @@
             "versioned_id": "browser_source",
             "settings": {
                 "is_local_file": true,
-                "local_file": "/Users/juanse/Developer/FailFast/content/FailFast-TBPN-/failfast-overlay.html",
+                "local_file": "/Users/mache/Content/fail-fast-show/overlay/failfast-overlay.html",
                 "width": 1920,
                 "height": 1080,
                 "reroute_audio": true
@@ -2101,7 +2101,7 @@
             "versioned_id": "browser_source",
             "settings": {
                 "is_local_file": true,
-                "local_file": "/Users/juanse/Developer/FailFast/content/FailFast-TBPN-/failfast-overlay.html",
+                "local_file": "/Users/mache/Content/fail-fast-show/overlay/failfast-overlay.html",
                 "width": 1920,
                 "height": 1080,
                 "reroute_audio": true
@@ -2137,7 +2137,7 @@
             "versioned_id": "browser_source",
             "settings": {
                 "is_local_file": true,
-                "local_file": "/Users/juanse/Developer/FailFast/content/FailFast-TBPN-/failfast-overlay.html",
+                "local_file": "/Users/mache/Content/fail-fast-show/overlay/failfast-overlay.html",
                 "width": 1920,
                 "height": 1080,
                 "reroute_audio": true
@@ -2173,7 +2173,7 @@
             "versioned_id": "browser_source",
             "settings": {
                 "is_local_file": true,
-                "local_file": "/Users/juanse/Developer/FailFast/content/FailFast-TBPN-/failfast-overlay.html",
+                "local_file": "/Users/mache/Content/fail-fast-show/overlay/failfast-overlay.html",
                 "width": 1920,
                 "height": 1080,
                 "reroute_audio": true

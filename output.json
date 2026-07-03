@@ -1988,7 +1988,7 @@
         },
         "scripts-tool": [
             {
-                "path": "/Users/juanse/Downloads/obs_crear_escenas_fail_fast.py",
+                "path": "/Users/mache/Downloads/obs_crear_escenas_fail_fast.py",
                 "settings": {}
             }
         ]
@@ -3773,7 +3773,7 @@
             "settings": {
                 "files": [
                     {
-                        "value": "/Users/juanse/Content/fail-fast-show/3-julio-2026/images/1.png",
+                        "value": "/Users/mache/Content/fail-fast-show/3-julio-2026/images/1.png",
                         "uuid": "571569fe-6947-4b0a-882e-8663b76cba32",
                         "selected": false,
                         "hidden": false
@@ -3814,11 +3814,11 @@
             "versioned_id": "browser_source",
             "settings": {
                 "is_local_file": false,
-                "local_file": "/Users/juanse/Developer/FailFast/content/FailFast-TBPN-/failfast-overlay.html",
+                "local_file": "/Users/mache/Content/fail-fast-show/overlay/failfast-overlay.html",
                 "width": 1920,
                 "height": 1080,
                 "reroute_audio": true,
-                "url": "file:///Users/juanse/Content/fail-fast-show/overlay/failfast-overlay.html?scene=duo"
+                "url": "file:///Users/mache/Content/fail-fast-show/overlay/failfast-overlay.html?scene=duo"
             },
             "mixers": 255,
             "sync": 0,
@@ -3851,11 +3851,11 @@
             "versioned_id": "browser_source",
             "settings": {
                 "is_local_file": false,
-                "local_file": "/Users/juanse/Developer/FailFast/content/FailFast-TBPN-/failfast-overlay.html",
+                "local_file": "/Users/mache/Content/fail-fast-show/overlay/failfast-overlay.html",
                 "width": 1920,
                 "height": 1080,
                 "reroute_audio": true,
-                "url": "file:///Users/juanse/Content/fail-fast-show/overlay/failfast-overlay.html?scene=image"
+                "url": "file:///Users/mache/Content/fail-fast-show/overlay/failfast-overlay.html?scene=image"
             },
             "mixers": 255,
             "sync": 0,
@@ -3888,11 +3888,11 @@
             "versioned_id": "browser_source",
             "settings": {
                 "is_local_file": false,
-                "local_file": "/Users/juanse/Developer/FailFast/content/FailFast-TBPN-/failfast-overlay.html",
+                "local_file": "/Users/mache/Content/fail-fast-show/overlay/failfast-overlay.html",
                 "width": 1920,
                 "height": 1080,
                 "reroute_audio": true,
-                "url": "file:///Users/juanse/Content/fail-fast-show/overlay/failfast-overlay.html?scene=solo&who=js"
+                "url": "file:///Users/mache/Content/fail-fast-show/overlay/failfast-overlay.html?scene=solo&who=js"
             },
             "mixers": 255,
             "sync": 0,
@@ -3925,11 +3925,11 @@
             "versioned_id": "browser_source",
             "settings": {
                 "is_local_file": false,
-                "local_file": "/Users/juanse/Developer/FailFast/content/FailFast-TBPN-/failfast-overlay.html",
+                "local_file": "/Users/mache/Content/fail-fast-show/overlay/failfast-overlay.html",
                 "width": 1920,
                 "height": 1080,
                 "reroute_audio": true,
-                "url": "file:///Users/juanse/Content/fail-fast-show/overlay/failfast-overlay.html?scene=solo&who=cata"
+                "url": "file:///Users/mache/Content/fail-fast-show/overlay/failfast-overlay.html?scene=solo&who=cata"
             },
             "mixers": 255,
             "sync": 0,
@@ -4123,7 +4123,7 @@
             "settings": {
                 "files": [
                     {
-                        "value": "/Users/juanse/Content/fail-fast-show/images/2.png",
+                        "value": "/Users/mache/Content/fail-fast-show/images/2.png",
                         "uuid": "f33ca599-c5c0-4e5e-aa6e-f4b0ea104e83",
                         "selected": false,
                         "hidden": false
@@ -5904,7 +5904,7 @@
             "settings": {
                 "files": [
                     {
-                        "value": "/Users/juanse/Content/fail-fast-show/images/3.png",
+                        "value": "/Users/mache/Content/fail-fast-show/images/3.png",
                         "uuid": "6afb87ef-adb0-459d-9ca8-84d9af2d25c2",
                         "selected": false,
                         "hidden": false
@@ -7685,7 +7685,7 @@
             "settings": {
                 "files": [
                     {
-                        "value": "/Users/juanse/Content/fail-fast-show/images/4.png",
+                        "value": "/Users/mache/Content/fail-fast-show/images/4.png",
                         "uuid": "cf340fea-60f3-4862-8b13-f7970eb088ac",
                         "selected": false,
                         "hidden": false
@@ -9466,7 +9466,7 @@
             "settings": {
                 "files": [
                     {
-                        "value": "/Users/juanse/Content/fail-fast-show/images/5.png",
+                        "value": "/Users/mache/Content/fail-fast-show/images/5.png",
                         "uuid": "55190f3f-9b2b-4d59-9c54-1fb727a8f00c",
                         "selected": false,
                         "hidden": false
@@ -11247,7 +11247,7 @@
             "settings": {
                 "files": [
                     {
-                        "value": "/Users/juanse/Content/fail-fast-show/images/6.png",
+                        "value": "/Users/mache/Content/fail-fast-show/images/6.png",
                         "uuid": "3e3a422b-45de-448e-a438-7f1b8a92f43b",
                         "selected": false,
                         "hidden": false
@@ -13028,7 +13028,7 @@
             "settings": {
                 "files": [
                     {
-                        "value": "/Users/juanse/Content/fail-fast-show/images/7.png",
+                        "value": "/Users/mache/Content/fail-fast-show/images/7.png",
                         "uuid": "b2861470-62fb-42c6-bf07-e256addb8fff",
                         "selected": false,
                         "hidden": false
@@ -14809,7 +14809,7 @@
             "settings": {
                 "files": [
                     {
-                        "value": "/Users/juanse/Content/fail-fast-show/images/8.png",
+                        "value": "/Users/mache/Content/fail-fast-show/images/8.png",
                         "uuid": "6cdd8422-33b4-43aa-8552-bb00dee91ff3",
                         "selected": false,
                         "hidden": false
@@ -16590,7 +16590,7 @@
             "settings": {
                 "files": [
                     {
-                        "value": "/Users/juanse/Content/fail-fast-show/images/9.png",
+                        "value": "/Users/mache/Content/fail-fast-show/images/9.png",
                         "uuid": "809a63b2-6baf-43c8-af78-91de8d8494a6",
                         "selected": false,
                         "hidden": false
@@ -18371,7 +18371,7 @@
             "settings": {
                 "files": [
                     {
-                        "value": "/Users/juanse/Content/fail-fast-show/images/10.png",
+                        "value": "/Users/mache/Content/fail-fast-show/images/10.png",
                         "uuid": "776e493e-7bc8-4641-ac76-0433c5997e41",
                         "selected": false,
                         "hidden": false
@@ -20152,7 +20152,7 @@
             "settings": {
                 "files": [
                     {
-                        "value": "/Users/juanse/Content/fail-fast-show/images/11.png",
+                        "value": "/Users/mache/Content/fail-fast-show/images/11.png",
                         "uuid": "e154659e-cff1-447b-9e9f-beb4da8c1798",
                         "selected": false,
                         "hidden": false
@@ -21933,7 +21933,7 @@
             "settings": {
                 "files": [
                     {
-                        "value": "/Users/juanse/Content/fail-fast-show/images/12.png",
+                        "value": "/Users/mache/Content/fail-fast-show/images/12.png",
                         "uuid": "22972d3d-1064-4170-a682-de0c448d3dfd",
                         "selected": false,
                         "hidden": false
