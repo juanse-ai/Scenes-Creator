@@ -1231,7 +1231,7 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Overlay Solo Juanse",
+                        "name": "Overlay Solo Mache",
                         "source_uuid": "5956aee7-e170-4862-b612-6443ede7e206",
                         "visible": true,
                         "locked": true,
@@ -2131,7 +2131,7 @@
         },
         {
             "prev_ver": 536936450,
-            "name": "Overlay Solo Juanse",
+            "name": "Overlay Solo Mache",
             "uuid": "5956aee7-e170-4862-b612-6443ede7e206",
             "id": "browser_source",
             "versioned_id": "browser_source",
