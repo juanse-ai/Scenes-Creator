@@ -1,0 +1,74 @@
+[
+  {
+    "scene": "1",
+    "title": "TRUMP PROHÍBE CLAUDE",
+    "subtitle": "Washington cerró el acceso al modelo Mythos para usuarios extranjeros.",
+    "image": "Content/fail-fast-show/images/1.png"
+  },
+  {
+    "scene": "2",
+    "title": "TODO EMPEZÓ CON SK TELECOM",
+    "subtitle": "La mayor telecom de Corea del Sur encendió las alarmas por sus vínculos con China.",
+    "image": "Content/fail-fast-show/images/2.png"
+  },
+  {
+    "scene": "3",
+    "title": "LA CASA BLANCA APUNTÓ CONTRA CLAUDE",
+    "subtitle": "Las preocupaciones por la seguridad nacional escalaron hasta la Oficina Oval.",
+    "image": "Content/fail-fast-show/images/3.png"
+  },
+  {
+    "scene": "4",
+    "title": "AMAZON ENCONTRÓ UNA VULNERABILIDAD CRÍTICA",
+    "subtitle": "Logró superar las salvaguardas de Fable 5 y acceder a información altamente sensible.",
+    "image": "Content/fail-fast-show/images/4.png"
+  },
+  {
+    "scene": "5",
+    "title": "TRUMP PROHIBIÓ FABLE 5",
+    "subtitle": "Una sola orden de exportación bloqueó el acceso global a los modelos afectados.",
+    "image": "Content/fail-fast-show/images/5.png"
+  },
+  {
+    "scene": "6",
+    "title": "MYTHOS ENCONTRÓ 271 VULNERABILIDADES EN FIREFOX",
+    "subtitle": "Fallas que sobrevivieron años de auditorías fueron descubiertas en cuestión de días.",
+    "image": "Content/fail-fast-show/images/6.png"
+  },
+  {
+    "scene": "7",
+    "title": "MYTHOS TAMBIÉN ENCONTRÓ FALLAS EN LINUX",
+    "subtitle": "Algunas vulnerabilidades ya estaban siendo explotadas por hackers norcoreanos.",
+    "image": "Content/fail-fast-show/images/7.png"
+  },
+  {
+    "scene": "8",
+    "title": "MYTHOS PUEDE REPLICARSE CON MODELOS ABIERTOS",
+    "subtitle": "Investigadores reprodujeron varios hallazgos usando modelos públicos mucho más económicos.",
+    "image": "Content/fail-fast-show/images/8.png"
+  },
+  {
+    "scene": "9",
+    "title": "EL OPEN SOURCE YA ESTÁ A SOLO CUATRO MESES",
+    "subtitle": "La brecha con los modelos más avanzados se redujo drásticamente en apenas un año.",
+    "image": "Content/fail-fast-show/images/9.png"
+  },
+  {
+    "scene": "10",
+    "title": "EN UN AÑO CUALQUIERA TENDRÁ ESTE PODER",
+    "subtitle": "James Clark asegura que estas capacidades pronto estarán al alcance de todos.",
+    "image": "Content/fail-fast-show/images/10.png"
+  },
+  {
+    "scene": "11",
+    "title": "ES UN TEMA DE SOBERANÍA NACIONAL",
+    "subtitle": "Europa respondió con dureza y acusó a Washington de actuar por interés propio.",
+    "image": "Content/fail-fast-show/images/11.png"
+  },
+  {
+    "scene": "12",
+    "title": "EE. UU. Y CHINA CONTROLAN EL 90%",
+    "subtitle": "Dos países concentran casi toda la infraestructura mundial para entrenar IA.",
+    "image": "Content/fail-fast-show/images/12.png"
+  }
+]
