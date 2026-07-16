@@ -19,12 +19,11 @@ from urllib.request import pathname2url
 VARIANTES = ["DUO", "IMAGEN", "NATALIA", "JUANSE"]
 
 # OBS no soporta rutas relativas: importa las rutas tal cual están escritas.
-# Para que UN MISMO output.json sirva en varios computadores, todas las rutas
-# se anclan a una raíz idéntica en todas las máquinas e independiente del
-# usuario: /Users/Shared/fail-fast-show. En cada computador basta crear una
-# vez el symlink hacia la carpeta real:
-#   ln -sfn ~/Content/fail-fast-show /Users/Shared/fail-fast-show
-RAIZ_SHOW = "/Users/Shared/fail-fast-show"
+# Todas las rutas del show (la imagen de cada escena, etc.) se anclan a esta
+# raíz, que apunta a la carpeta real del show en disco. Así la imagen de la
+# escena N queda como <RAIZ_SHOW>/images/N.png. Cámbiala aquí (o con --root)
+# si el show vive en otra ruta o en otro computador.
+RAIZ_SHOW = "/Users/mache/Content/fail-fast-show"
 
 # El HTML del overlay elige su layout por query string (?scene=...&who=...).
 # El modo elegido con los botones via "Interact" es estado en memoria del
@@ -204,10 +203,9 @@ def main():
     parser.add_argument(
         "--root",
         default=RAIZ_SHOW,
-        help=f"Raíz del show, idéntica en todas las máquinas (default: {RAIZ_SHOW}). "
-        "Toda ruta del collection y las rutas relativas del JSON de temas se "
-        "anclan a esta raíz, así el mismo output sirve en cualquier computador "
-        "que tenga el symlink: ln -sfn ~/Content/fail-fast-show " + RAIZ_SHOW,
+        help=f"Raíz del show en disco (default: {RAIZ_SHOW}). Toda ruta del "
+        "collection y las rutas relativas del JSON de temas se anclan a esta "
+        "raíz; p.ej. la imagen de una escena queda como <root>/images/<n>.png.",
     )
     args = parser.parse_args()
 
@@ -218,8 +216,7 @@ def main():
     if not verificar_disco:
         advertir(
             f"la raíz '{raiz}' no existe en esta máquina; no se verificará que "
-            f"imágenes y overlay existan. Créala con: "
-            f"ln -sfn ~/Content/fail-fast-show {raiz}"
+            f"las imágenes existan. Usa --root para apuntar a la carpeta del show."
         )
 
     if os.path.abspath(args.output) in (os.path.abspath(args.base), os.path.abspath(args.temas)):

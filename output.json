@@ -182,7 +182,7 @@
         {
             "prev_ver": 536936450,
             "name": "Titulos 2",
-            "uuid": "27e757b3-8df8-4d96-880f-eec46c2bbc58",
+            "uuid": "f9111b8d-4c39-4eb9-8d9e-ee1dd399497b",
             "id": "group",
             "versioned_id": "group",
             "settings": {
@@ -193,7 +193,7 @@
                 "items": [
                     {
                         "name": "Subtitle 2",
-                        "source_uuid": "4081b38b-2013-495f-a2d0-b145b5e63686",
+                        "source_uuid": "f3bc4f2f-60c3-44f6-a0ca-3e7fc5de2866",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -248,7 +248,7 @@
                     },
                     {
                         "name": "Title 2",
-                        "source_uuid": "a161eb46-7f65-497e-97ac-0b1cef95880a",
+                        "source_uuid": "ad0109e5-f9a6-4918-ae07-16f951a13b8a",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -329,7 +329,7 @@
         {
             "prev_ver": 536936450,
             "name": "Titulos 3",
-            "uuid": "3c9c89cb-66ec-46dd-a843-1188984de8d5",
+            "uuid": "416b5ee2-ec9e-4079-b686-8334da8a8124",
             "id": "group",
             "versioned_id": "group",
             "settings": {
@@ -340,7 +340,7 @@
                 "items": [
                     {
                         "name": "Subtitle 3",
-                        "source_uuid": "4b9284ed-348d-4ab7-a796-b5c792279773",
+                        "source_uuid": "89eead9f-cba5-415c-bafe-f82a5634867a",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -395,7 +395,7 @@
                     },
                     {
                         "name": "Title 3",
-                        "source_uuid": "db70e97b-ffb8-4c4e-b191-c327de84d738",
+                        "source_uuid": "8892df9b-ec6e-4deb-8ece-68dc27ef3372",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -476,7 +476,7 @@
         {
             "prev_ver": 536936450,
             "name": "Titulos 4",
-            "uuid": "bd93a730-8a89-4356-93b4-946a3c5169b5",
+            "uuid": "f73cd3af-edcf-4b2b-aa87-b22001b047cf",
             "id": "group",
             "versioned_id": "group",
             "settings": {
@@ -487,7 +487,7 @@
                 "items": [
                     {
                         "name": "Subtitle 4",
-                        "source_uuid": "9d744174-deaa-430a-8476-f727b064b7a4",
+                        "source_uuid": "778eceba-ea41-4a48-9f3d-66acc4ef33a2",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -542,7 +542,7 @@
                     },
                     {
                         "name": "Title 4",
-                        "source_uuid": "82736606-744c-47ac-8c1e-06fc63bebd99",
+                        "source_uuid": "268eb2d9-3a91-4929-bf04-808ac8101dae",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -623,7 +623,7 @@
         {
             "prev_ver": 536936450,
             "name": "Titulos 5",
-            "uuid": "cee7c3a3-d446-4d56-8d79-e98dd586de79",
+            "uuid": "a682e3cb-ee1f-4eb4-b975-33c600eb6d16",
             "id": "group",
             "versioned_id": "group",
             "settings": {
@@ -634,7 +634,7 @@
                 "items": [
                     {
                         "name": "Subtitle 5",
-                        "source_uuid": "1874794c-11b4-4892-8479-186502229662",
+                        "source_uuid": "b9e5649c-2415-4d01-9025-8279c52afaab",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -689,7 +689,7 @@
                     },
                     {
                         "name": "Title 5",
-                        "source_uuid": "558acfe8-04bd-4595-a6ec-a143fa49abfb",
+                        "source_uuid": "a2655d23-52e1-4c21-8ce5-61c3684d8793",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -770,7 +770,7 @@
         {
             "prev_ver": 536936450,
             "name": "Titulos 6",
-            "uuid": "b3e414e5-e068-458e-9ceb-8fd2835d6904",
+            "uuid": "a12f78a4-0bb4-4274-b170-cd2c81de5826",
             "id": "group",
             "versioned_id": "group",
             "settings": {
@@ -781,7 +781,7 @@
                 "items": [
                     {
                         "name": "Subtitle 6",
-                        "source_uuid": "91416789-de39-46f3-b58a-573e5d7451eb",
+                        "source_uuid": "cc7bce84-ab96-4f84-8df0-ba97005b2847",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -836,7 +836,7 @@
                     },
                     {
                         "name": "Title 6",
-                        "source_uuid": "2857e6e7-2284-434f-85e8-9bf38619197b",
+                        "source_uuid": "805a0578-29ad-4a12-a586-1c6f30b0cd5d",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -917,7 +917,7 @@
         {
             "prev_ver": 536936450,
             "name": "Titulos 7",
-            "uuid": "4809216b-3074-4e71-bb5c-af49fff99f8d",
+            "uuid": "3ed3c4a5-141a-4f54-bbe3-bec23f440439",
             "id": "group",
             "versioned_id": "group",
             "settings": {
@@ -928,7 +928,7 @@
                 "items": [
                     {
                         "name": "Subtitle 7",
-                        "source_uuid": "3f0f1e93-9437-4c41-aa7c-db72eb7bfb40",
+                        "source_uuid": "7ad725c9-30b4-4663-a1c8-176048cc5cb4",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -983,7 +983,7 @@
                     },
                     {
                         "name": "Title 7",
-                        "source_uuid": "3646845f-ef3c-4ec7-8b58-9032bfe4bfb4",
+                        "source_uuid": "0bb15f8d-e730-4c2b-9e1c-e6cc7ad4cd63",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -2973,8 +2973,8 @@
             "settings": {
                 "files": [
                     {
-                        "value": "/Users/Shared/fail-fast-show/images/1.png",
-                        "uuid": "69095345-cb28-46d0-bae7-4f8fc6b1bca0",
+                        "value": "/Users/mache/Content/fail-fast-show/images/1.png",
+                        "uuid": "e7491ce6-7d59-431f-a27d-751833130e93",
                         "selected": false,
                         "hidden": false
                     }
@@ -3237,7 +3237,7 @@
         {
             "prev_ver": 536936450,
             "name": "Title 2",
-            "uuid": "a161eb46-7f65-497e-97ac-0b1cef95880a",
+            "uuid": "ad0109e5-f9a6-4918-ae07-16f951a13b8a",
             "id": "text_ft2_source",
             "versioned_id": "text_ft2_source_v2",
             "settings": {
@@ -3277,7 +3277,7 @@
         {
             "prev_ver": 536936450,
             "name": "Subtitle 2",
-            "uuid": "4081b38b-2013-495f-a2d0-b145b5e63686",
+            "uuid": "f3bc4f2f-60c3-44f6-a0ca-3e7fc5de2866",
             "id": "text_ft2_source",
             "versioned_id": "text_ft2_source_v2",
             "settings": {
@@ -3317,14 +3317,14 @@
         {
             "prev_ver": 536936450,
             "name": "FOTOS 2",
-            "uuid": "9cfdb65b-efe5-41a0-a4a4-49a5e539c83e",
+            "uuid": "0baf4e91-d049-46c8-8226-b898436237fa",
             "id": "slideshow",
             "versioned_id": "slideshow_v2",
             "settings": {
                 "files": [
                     {
-                        "value": "/Users/Shared/fail-fast-show/images/2.png",
-                        "uuid": "5297266a-4263-4d35-8f7f-8d5182462ff3",
+                        "value": "/Users/mache/Content/fail-fast-show/images/2.png",
+                        "uuid": "7c25530d-2b66-44d7-8f6a-d5365c8f3f66",
                         "selected": false,
                         "hidden": false
                     }
@@ -3359,7 +3359,7 @@
         {
             "prev_ver": 536936450,
             "name": "2---DUO",
-            "uuid": "fb6b507a-bb5c-48c3-b6a9-3199281b8127",
+            "uuid": "92baebc5-3a91-47ec-80e4-a1a30a397db7",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
@@ -3588,7 +3588,7 @@
                     },
                     {
                         "name": "Subtitle 2",
-                        "source_uuid": "4081b38b-2013-495f-a2d0-b145b5e63686",
+                        "source_uuid": "f3bc4f2f-60c3-44f6-a0ca-3e7fc5de2866",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -3643,7 +3643,7 @@
                     },
                     {
                         "name": "Title 2",
-                        "source_uuid": "a161eb46-7f65-497e-97ac-0b1cef95880a",
+                        "source_uuid": "ad0109e5-f9a6-4918-ae07-16f951a13b8a",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -3698,7 +3698,7 @@
                     },
                     {
                         "name": "Titulos 2",
-                        "source_uuid": "27e757b3-8df8-4d96-880f-eec46c2bbc58",
+                        "source_uuid": "f9111b8d-4c39-4eb9-8d9e-ee1dd399497b",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -3788,7 +3788,7 @@
         {
             "prev_ver": 536936450,
             "name": "2---IMAGEN",
-            "uuid": "49eb3b7b-c7ca-4e03-9389-3c13abba3658",
+            "uuid": "2dc0e2fb-09b8-4cb8-ade3-d837082d6b16",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
@@ -3907,7 +3907,7 @@
                     },
                     {
                         "name": "FOTOS 2",
-                        "source_uuid": "9cfdb65b-efe5-41a0-a4a4-49a5e539c83e",
+                        "source_uuid": "0baf4e91-d049-46c8-8226-b898436237fa",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -4072,7 +4072,7 @@
                     },
                     {
                         "name": "Subtitle 2",
-                        "source_uuid": "4081b38b-2013-495f-a2d0-b145b5e63686",
+                        "source_uuid": "f3bc4f2f-60c3-44f6-a0ca-3e7fc5de2866",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -4127,7 +4127,7 @@
                     },
                     {
                         "name": "Title 2",
-                        "source_uuid": "a161eb46-7f65-497e-97ac-0b1cef95880a",
+                        "source_uuid": "ad0109e5-f9a6-4918-ae07-16f951a13b8a",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -4182,7 +4182,7 @@
                     },
                     {
                         "name": "Titulos 2",
-                        "source_uuid": "27e757b3-8df8-4d96-880f-eec46c2bbc58",
+                        "source_uuid": "f9111b8d-4c39-4eb9-8d9e-ee1dd399497b",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -4274,7 +4274,7 @@
         {
             "prev_ver": 536936450,
             "name": "2---NATALIA",
-            "uuid": "88083c85-da57-4a95-89e0-c769b6311335",
+            "uuid": "86abaca1-cf97-4e6f-8cea-8ebc9d544d7e",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
@@ -4448,7 +4448,7 @@
                     },
                     {
                         "name": "Subtitle 2",
-                        "source_uuid": "4081b38b-2013-495f-a2d0-b145b5e63686",
+                        "source_uuid": "f3bc4f2f-60c3-44f6-a0ca-3e7fc5de2866",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -4503,7 +4503,7 @@
                     },
                     {
                         "name": "Title 2",
-                        "source_uuid": "a161eb46-7f65-497e-97ac-0b1cef95880a",
+                        "source_uuid": "ad0109e5-f9a6-4918-ae07-16f951a13b8a",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -4558,7 +4558,7 @@
                     },
                     {
                         "name": "Titulos 2",
-                        "source_uuid": "27e757b3-8df8-4d96-880f-eec46c2bbc58",
+                        "source_uuid": "f9111b8d-4c39-4eb9-8d9e-ee1dd399497b",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -4646,7 +4646,7 @@
         {
             "prev_ver": 536936450,
             "name": "2---JUANSE",
-            "uuid": "1e8cecce-debf-4103-96ac-5c48bb0baffb",
+            "uuid": "52f25e83-c6b4-4504-82c7-bed989754362",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
@@ -4820,7 +4820,7 @@
                     },
                     {
                         "name": "Subtitle 2",
-                        "source_uuid": "4081b38b-2013-495f-a2d0-b145b5e63686",
+                        "source_uuid": "f3bc4f2f-60c3-44f6-a0ca-3e7fc5de2866",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -4875,7 +4875,7 @@
                     },
                     {
                         "name": "Title 2",
-                        "source_uuid": "a161eb46-7f65-497e-97ac-0b1cef95880a",
+                        "source_uuid": "ad0109e5-f9a6-4918-ae07-16f951a13b8a",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -4930,7 +4930,7 @@
                     },
                     {
                         "name": "Titulos 2",
-                        "source_uuid": "27e757b3-8df8-4d96-880f-eec46c2bbc58",
+                        "source_uuid": "f9111b8d-4c39-4eb9-8d9e-ee1dd399497b",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -5018,7 +5018,7 @@
         {
             "prev_ver": 536936450,
             "name": "Title 3",
-            "uuid": "db70e97b-ffb8-4c4e-b191-c327de84d738",
+            "uuid": "8892df9b-ec6e-4deb-8ece-68dc27ef3372",
             "id": "text_ft2_source",
             "versioned_id": "text_ft2_source_v2",
             "settings": {
@@ -5058,7 +5058,7 @@
         {
             "prev_ver": 536936450,
             "name": "Subtitle 3",
-            "uuid": "4b9284ed-348d-4ab7-a796-b5c792279773",
+            "uuid": "89eead9f-cba5-415c-bafe-f82a5634867a",
             "id": "text_ft2_source",
             "versioned_id": "text_ft2_source_v2",
             "settings": {
@@ -5098,14 +5098,14 @@
         {
             "prev_ver": 536936450,
             "name": "FOTOS 3",
-            "uuid": "adb4eaf5-69cf-4071-bf00-8da3e0f50763",
+            "uuid": "31159674-943a-4211-9990-40ce66cf12f2",
             "id": "slideshow",
             "versioned_id": "slideshow_v2",
             "settings": {
                 "files": [
                     {
-                        "value": "/Users/Shared/fail-fast-show/images/3.png",
-                        "uuid": "25900273-1e43-42cb-b00e-df63e8e553cc",
+                        "value": "/Users/mache/Content/fail-fast-show/images/3.png",
+                        "uuid": "fed103e0-b665-44c4-9664-f17fac1375af",
                         "selected": false,
                         "hidden": false
                     }
@@ -5140,7 +5140,7 @@
         {
             "prev_ver": 536936450,
             "name": "3---DUO",
-            "uuid": "4fb17e0f-b251-4e03-a5f8-6b0b2c2a2117",
+            "uuid": "899ef175-bd81-4d33-a557-5e6995ffccfd",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
@@ -5369,7 +5369,7 @@
                     },
                     {
                         "name": "Subtitle 3",
-                        "source_uuid": "4b9284ed-348d-4ab7-a796-b5c792279773",
+                        "source_uuid": "89eead9f-cba5-415c-bafe-f82a5634867a",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -5424,7 +5424,7 @@
                     },
                     {
                         "name": "Title 3",
-                        "source_uuid": "db70e97b-ffb8-4c4e-b191-c327de84d738",
+                        "source_uuid": "8892df9b-ec6e-4deb-8ece-68dc27ef3372",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -5479,7 +5479,7 @@
                     },
                     {
                         "name": "Titulos 3",
-                        "source_uuid": "3c9c89cb-66ec-46dd-a843-1188984de8d5",
+                        "source_uuid": "416b5ee2-ec9e-4079-b686-8334da8a8124",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -5569,7 +5569,7 @@
         {
             "prev_ver": 536936450,
             "name": "3---IMAGEN",
-            "uuid": "aa951d2e-1058-450c-ab8d-be2917cec9bd",
+            "uuid": "8043c62e-ea3e-4bd8-86ac-1682221e10a9",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
@@ -5688,7 +5688,7 @@
                     },
                     {
                         "name": "FOTOS 3",
-                        "source_uuid": "adb4eaf5-69cf-4071-bf00-8da3e0f50763",
+                        "source_uuid": "31159674-943a-4211-9990-40ce66cf12f2",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -5853,7 +5853,7 @@
                     },
                     {
                         "name": "Subtitle 3",
-                        "source_uuid": "4b9284ed-348d-4ab7-a796-b5c792279773",
+                        "source_uuid": "89eead9f-cba5-415c-bafe-f82a5634867a",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -5908,7 +5908,7 @@
                     },
                     {
                         "name": "Title 3",
-                        "source_uuid": "db70e97b-ffb8-4c4e-b191-c327de84d738",
+                        "source_uuid": "8892df9b-ec6e-4deb-8ece-68dc27ef3372",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -5963,7 +5963,7 @@
                     },
                     {
                         "name": "Titulos 3",
-                        "source_uuid": "3c9c89cb-66ec-46dd-a843-1188984de8d5",
+                        "source_uuid": "416b5ee2-ec9e-4079-b686-8334da8a8124",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -6055,7 +6055,7 @@
         {
             "prev_ver": 536936450,
             "name": "3---NATALIA",
-            "uuid": "f562920d-eb4d-4833-942e-dcdb8b116963",
+            "uuid": "8b26e2b7-8dc4-4759-a9fb-8a15a8b85d6e",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
@@ -6229,7 +6229,7 @@
                     },
                     {
                         "name": "Subtitle 3",
-                        "source_uuid": "4b9284ed-348d-4ab7-a796-b5c792279773",
+                        "source_uuid": "89eead9f-cba5-415c-bafe-f82a5634867a",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -6284,7 +6284,7 @@
                     },
                     {
                         "name": "Title 3",
-                        "source_uuid": "db70e97b-ffb8-4c4e-b191-c327de84d738",
+                        "source_uuid": "8892df9b-ec6e-4deb-8ece-68dc27ef3372",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -6339,7 +6339,7 @@
                     },
                     {
                         "name": "Titulos 3",
-                        "source_uuid": "3c9c89cb-66ec-46dd-a843-1188984de8d5",
+                        "source_uuid": "416b5ee2-ec9e-4079-b686-8334da8a8124",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -6427,7 +6427,7 @@
         {
             "prev_ver": 536936450,
             "name": "3---JUANSE",
-            "uuid": "19418511-ddae-45aa-9ea6-01fe9c2a9118",
+            "uuid": "2662631c-0828-4363-8be3-1f32e6b65583",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
@@ -6601,7 +6601,7 @@
                     },
                     {
                         "name": "Subtitle 3",
-                        "source_uuid": "4b9284ed-348d-4ab7-a796-b5c792279773",
+                        "source_uuid": "89eead9f-cba5-415c-bafe-f82a5634867a",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -6656,7 +6656,7 @@
                     },
                     {
                         "name": "Title 3",
-                        "source_uuid": "db70e97b-ffb8-4c4e-b191-c327de84d738",
+                        "source_uuid": "8892df9b-ec6e-4deb-8ece-68dc27ef3372",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -6711,7 +6711,7 @@
                     },
                     {
                         "name": "Titulos 3",
-                        "source_uuid": "3c9c89cb-66ec-46dd-a843-1188984de8d5",
+                        "source_uuid": "416b5ee2-ec9e-4079-b686-8334da8a8124",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -6799,7 +6799,7 @@
         {
             "prev_ver": 536936450,
             "name": "Title 4",
-            "uuid": "82736606-744c-47ac-8c1e-06fc63bebd99",
+            "uuid": "268eb2d9-3a91-4929-bf04-808ac8101dae",
             "id": "text_ft2_source",
             "versioned_id": "text_ft2_source_v2",
             "settings": {
@@ -6839,7 +6839,7 @@
         {
             "prev_ver": 536936450,
             "name": "Subtitle 4",
-            "uuid": "9d744174-deaa-430a-8476-f727b064b7a4",
+            "uuid": "778eceba-ea41-4a48-9f3d-66acc4ef33a2",
             "id": "text_ft2_source",
             "versioned_id": "text_ft2_source_v2",
             "settings": {
@@ -6879,14 +6879,14 @@
         {
             "prev_ver": 536936450,
             "name": "FOTOS 4",
-            "uuid": "892dc8d2-1d7e-4e7b-8236-11c883e572c6",
+            "uuid": "aa796975-4715-4cb6-abe6-ef87c4ef3772",
             "id": "slideshow",
             "versioned_id": "slideshow_v2",
             "settings": {
                 "files": [
                     {
-                        "value": "/Users/Shared/fail-fast-show/images/4.png",
-                        "uuid": "135cb801-a548-4813-85cb-5d1613383a67",
+                        "value": "/Users/mache/Content/fail-fast-show/images/4.png",
+                        "uuid": "9c2014aa-0d32-4c9f-9542-df69060cde1b",
                         "selected": false,
                         "hidden": false
                     }
@@ -6921,7 +6921,7 @@
         {
             "prev_ver": 536936450,
             "name": "4---DUO",
-            "uuid": "efdfa7e9-56a3-4c21-9872-8d8d73bb9aab",
+            "uuid": "8181da18-8723-468b-9a49-5f8f2c0996cb",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
@@ -7150,7 +7150,7 @@
                     },
                     {
                         "name": "Subtitle 4",
-                        "source_uuid": "9d744174-deaa-430a-8476-f727b064b7a4",
+                        "source_uuid": "778eceba-ea41-4a48-9f3d-66acc4ef33a2",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -7205,7 +7205,7 @@
                     },
                     {
                         "name": "Title 4",
-                        "source_uuid": "82736606-744c-47ac-8c1e-06fc63bebd99",
+                        "source_uuid": "268eb2d9-3a91-4929-bf04-808ac8101dae",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -7260,7 +7260,7 @@
                     },
                     {
                         "name": "Titulos 4",
-                        "source_uuid": "bd93a730-8a89-4356-93b4-946a3c5169b5",
+                        "source_uuid": "f73cd3af-edcf-4b2b-aa87-b22001b047cf",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -7350,7 +7350,7 @@
         {
             "prev_ver": 536936450,
             "name": "4---IMAGEN",
-            "uuid": "c7c3734d-e0bb-488c-9b55-4bb0e1009540",
+            "uuid": "03819d13-d0db-4179-8f64-c3f53be99f98",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
@@ -7469,7 +7469,7 @@
                     },
                     {
                         "name": "FOTOS 4",
-                        "source_uuid": "892dc8d2-1d7e-4e7b-8236-11c883e572c6",
+                        "source_uuid": "aa796975-4715-4cb6-abe6-ef87c4ef3772",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -7634,7 +7634,7 @@
                     },
                     {
                         "name": "Subtitle 4",
-                        "source_uuid": "9d744174-deaa-430a-8476-f727b064b7a4",
+                        "source_uuid": "778eceba-ea41-4a48-9f3d-66acc4ef33a2",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -7689,7 +7689,7 @@
                     },
                     {
                         "name": "Title 4",
-                        "source_uuid": "82736606-744c-47ac-8c1e-06fc63bebd99",
+                        "source_uuid": "268eb2d9-3a91-4929-bf04-808ac8101dae",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -7744,7 +7744,7 @@
                     },
                     {
                         "name": "Titulos 4",
-                        "source_uuid": "bd93a730-8a89-4356-93b4-946a3c5169b5",
+                        "source_uuid": "f73cd3af-edcf-4b2b-aa87-b22001b047cf",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -7836,7 +7836,7 @@
         {
             "prev_ver": 536936450,
             "name": "4---NATALIA",
-            "uuid": "7134c683-beac-4821-b658-052e0282032a",
+            "uuid": "8a36c058-ee6a-47a1-82c8-e10a26b48f2f",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
@@ -8010,7 +8010,7 @@
                     },
                     {
                         "name": "Subtitle 4",
-                        "source_uuid": "9d744174-deaa-430a-8476-f727b064b7a4",
+                        "source_uuid": "778eceba-ea41-4a48-9f3d-66acc4ef33a2",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -8065,7 +8065,7 @@
                     },
                     {
                         "name": "Title 4",
-                        "source_uuid": "82736606-744c-47ac-8c1e-06fc63bebd99",
+                        "source_uuid": "268eb2d9-3a91-4929-bf04-808ac8101dae",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -8120,7 +8120,7 @@
                     },
                     {
                         "name": "Titulos 4",
-                        "source_uuid": "bd93a730-8a89-4356-93b4-946a3c5169b5",
+                        "source_uuid": "f73cd3af-edcf-4b2b-aa87-b22001b047cf",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -8208,7 +8208,7 @@
         {
             "prev_ver": 536936450,
             "name": "4---JUANSE",
-            "uuid": "2c9ed228-f794-4ded-b102-ac8a172d4a4c",
+            "uuid": "444122d0-03f6-4635-826a-f57f04888a96",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
@@ -8382,7 +8382,7 @@
                     },
                     {
                         "name": "Subtitle 4",
-                        "source_uuid": "9d744174-deaa-430a-8476-f727b064b7a4",
+                        "source_uuid": "778eceba-ea41-4a48-9f3d-66acc4ef33a2",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -8437,7 +8437,7 @@
                     },
                     {
                         "name": "Title 4",
-                        "source_uuid": "82736606-744c-47ac-8c1e-06fc63bebd99",
+                        "source_uuid": "268eb2d9-3a91-4929-bf04-808ac8101dae",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -8492,7 +8492,7 @@
                     },
                     {
                         "name": "Titulos 4",
-                        "source_uuid": "bd93a730-8a89-4356-93b4-946a3c5169b5",
+                        "source_uuid": "f73cd3af-edcf-4b2b-aa87-b22001b047cf",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -8580,7 +8580,7 @@
         {
             "prev_ver": 536936450,
             "name": "Title 5",
-            "uuid": "558acfe8-04bd-4595-a6ec-a143fa49abfb",
+            "uuid": "a2655d23-52e1-4c21-8ce5-61c3684d8793",
             "id": "text_ft2_source",
             "versioned_id": "text_ft2_source_v2",
             "settings": {
@@ -8620,7 +8620,7 @@
         {
             "prev_ver": 536936450,
             "name": "Subtitle 5",
-            "uuid": "1874794c-11b4-4892-8479-186502229662",
+            "uuid": "b9e5649c-2415-4d01-9025-8279c52afaab",
             "id": "text_ft2_source",
             "versioned_id": "text_ft2_source_v2",
             "settings": {
@@ -8660,14 +8660,14 @@
         {
             "prev_ver": 536936450,
             "name": "FOTOS 5",
-            "uuid": "9f7d7676-d473-4112-9f8d-3228745a7181",
+            "uuid": "72fe2e74-924a-4e49-8820-b1a7e576f175",
             "id": "slideshow",
             "versioned_id": "slideshow_v2",
             "settings": {
                 "files": [
                     {
-                        "value": "/Users/Shared/fail-fast-show/images/5.png",
-                        "uuid": "5a8e3475-8c82-4e6e-9290-f1e08dc6305e",
+                        "value": "/Users/mache/Content/fail-fast-show/images/5.png",
+                        "uuid": "c9e9d554-f3f5-41f3-8fef-fd30df73b1c6",
                         "selected": false,
                         "hidden": false
                     }
@@ -8702,7 +8702,7 @@
         {
             "prev_ver": 536936450,
             "name": "5---DUO",
-            "uuid": "e4ba5c04-ccf9-4d6d-9349-349e85066568",
+            "uuid": "b974a674-eb1d-464b-bb94-f03eb9179871",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
@@ -8931,7 +8931,7 @@
                     },
                     {
                         "name": "Subtitle 5",
-                        "source_uuid": "1874794c-11b4-4892-8479-186502229662",
+                        "source_uuid": "b9e5649c-2415-4d01-9025-8279c52afaab",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -8986,7 +8986,7 @@
                     },
                     {
                         "name": "Title 5",
-                        "source_uuid": "558acfe8-04bd-4595-a6ec-a143fa49abfb",
+                        "source_uuid": "a2655d23-52e1-4c21-8ce5-61c3684d8793",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -9041,7 +9041,7 @@
                     },
                     {
                         "name": "Titulos 5",
-                        "source_uuid": "cee7c3a3-d446-4d56-8d79-e98dd586de79",
+                        "source_uuid": "a682e3cb-ee1f-4eb4-b975-33c600eb6d16",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -9131,7 +9131,7 @@
         {
             "prev_ver": 536936450,
             "name": "5---IMAGEN",
-            "uuid": "9617f99e-d91c-49c9-b8b8-74aed47ee81e",
+            "uuid": "3942187c-f1b2-4518-9eb2-41c01f79d043",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
@@ -9250,7 +9250,7 @@
                     },
                     {
                         "name": "FOTOS 5",
-                        "source_uuid": "9f7d7676-d473-4112-9f8d-3228745a7181",
+                        "source_uuid": "72fe2e74-924a-4e49-8820-b1a7e576f175",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -9415,7 +9415,7 @@
                     },
                     {
                         "name": "Subtitle 5",
-                        "source_uuid": "1874794c-11b4-4892-8479-186502229662",
+                        "source_uuid": "b9e5649c-2415-4d01-9025-8279c52afaab",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -9470,7 +9470,7 @@
                     },
                     {
                         "name": "Title 5",
-                        "source_uuid": "558acfe8-04bd-4595-a6ec-a143fa49abfb",
+                        "source_uuid": "a2655d23-52e1-4c21-8ce5-61c3684d8793",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -9525,7 +9525,7 @@
                     },
                     {
                         "name": "Titulos 5",
-                        "source_uuid": "cee7c3a3-d446-4d56-8d79-e98dd586de79",
+                        "source_uuid": "a682e3cb-ee1f-4eb4-b975-33c600eb6d16",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -9617,7 +9617,7 @@
         {
             "prev_ver": 536936450,
             "name": "5---NATALIA",
-            "uuid": "774e42cb-3321-40a1-aee3-91ab5dbf11b9",
+            "uuid": "71914121-9197-4f41-8558-67116ee0caa2",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
@@ -9791,7 +9791,7 @@
                     },
                     {
                         "name": "Subtitle 5",
-                        "source_uuid": "1874794c-11b4-4892-8479-186502229662",
+                        "source_uuid": "b9e5649c-2415-4d01-9025-8279c52afaab",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -9846,7 +9846,7 @@
                     },
                     {
                         "name": "Title 5",
-                        "source_uuid": "558acfe8-04bd-4595-a6ec-a143fa49abfb",
+                        "source_uuid": "a2655d23-52e1-4c21-8ce5-61c3684d8793",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -9901,7 +9901,7 @@
                     },
                     {
                         "name": "Titulos 5",
-                        "source_uuid": "cee7c3a3-d446-4d56-8d79-e98dd586de79",
+                        "source_uuid": "a682e3cb-ee1f-4eb4-b975-33c600eb6d16",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -9989,7 +9989,7 @@
         {
             "prev_ver": 536936450,
             "name": "5---JUANSE",
-            "uuid": "0620afe5-a79e-4419-8a40-189fc4c9b386",
+            "uuid": "0d9c8229-8a9c-4b14-af70-91b4da38757f",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
@@ -10163,7 +10163,7 @@
                     },
                     {
                         "name": "Subtitle 5",
-                        "source_uuid": "1874794c-11b4-4892-8479-186502229662",
+                        "source_uuid": "b9e5649c-2415-4d01-9025-8279c52afaab",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -10218,7 +10218,7 @@
                     },
                     {
                         "name": "Title 5",
-                        "source_uuid": "558acfe8-04bd-4595-a6ec-a143fa49abfb",
+                        "source_uuid": "a2655d23-52e1-4c21-8ce5-61c3684d8793",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -10273,7 +10273,7 @@
                     },
                     {
                         "name": "Titulos 5",
-                        "source_uuid": "cee7c3a3-d446-4d56-8d79-e98dd586de79",
+                        "source_uuid": "a682e3cb-ee1f-4eb4-b975-33c600eb6d16",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -10361,7 +10361,7 @@
         {
             "prev_ver": 536936450,
             "name": "Title 6",
-            "uuid": "2857e6e7-2284-434f-85e8-9bf38619197b",
+            "uuid": "805a0578-29ad-4a12-a586-1c6f30b0cd5d",
             "id": "text_ft2_source",
             "versioned_id": "text_ft2_source_v2",
             "settings": {
@@ -10401,7 +10401,7 @@
         {
             "prev_ver": 536936450,
             "name": "Subtitle 6",
-            "uuid": "91416789-de39-46f3-b58a-573e5d7451eb",
+            "uuid": "cc7bce84-ab96-4f84-8df0-ba97005b2847",
             "id": "text_ft2_source",
             "versioned_id": "text_ft2_source_v2",
             "settings": {
@@ -10441,14 +10441,14 @@
         {
             "prev_ver": 536936450,
             "name": "FOTOS 6",
-            "uuid": "012bef22-4212-4d7c-84cd-392ff4d54868",
+            "uuid": "9ad99492-3e2b-4bf9-9755-5ebd2cae6f93",
             "id": "slideshow",
             "versioned_id": "slideshow_v2",
             "settings": {
                 "files": [
                     {
-                        "value": "/Users/Shared/fail-fast-show/images/6.png",
-                        "uuid": "8be4678e-9b52-4338-b861-4336cf842ebe",
+                        "value": "/Users/mache/Content/fail-fast-show/images/6.png",
+                        "uuid": "1c32ac0d-882b-409b-bc02-ab16b50b0278",
                         "selected": false,
                         "hidden": false
                     }
@@ -10483,7 +10483,7 @@
         {
             "prev_ver": 536936450,
             "name": "6---DUO",
-            "uuid": "e98952ab-77d2-4065-b63c-4455295f2e90",
+            "uuid": "58bc5b1e-7124-41d7-8ef0-06f428beb36f",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
@@ -10712,7 +10712,7 @@
                     },
                     {
                         "name": "Subtitle 6",
-                        "source_uuid": "91416789-de39-46f3-b58a-573e5d7451eb",
+                        "source_uuid": "cc7bce84-ab96-4f84-8df0-ba97005b2847",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -10767,7 +10767,7 @@
                     },
                     {
                         "name": "Title 6",
-                        "source_uuid": "2857e6e7-2284-434f-85e8-9bf38619197b",
+                        "source_uuid": "805a0578-29ad-4a12-a586-1c6f30b0cd5d",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -10822,7 +10822,7 @@
                     },
                     {
                         "name": "Titulos 6",
-                        "source_uuid": "b3e414e5-e068-458e-9ceb-8fd2835d6904",
+                        "source_uuid": "a12f78a4-0bb4-4274-b170-cd2c81de5826",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -10912,7 +10912,7 @@
         {
             "prev_ver": 536936450,
             "name": "6---IMAGEN",
-            "uuid": "0e5d368c-bb50-493d-a30c-5c332b4317c3",
+            "uuid": "91c8fd8a-6e33-4ab8-a93f-fa46a1dfe172",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
@@ -11031,7 +11031,7 @@
                     },
                     {
                         "name": "FOTOS 6",
-                        "source_uuid": "012bef22-4212-4d7c-84cd-392ff4d54868",
+                        "source_uuid": "9ad99492-3e2b-4bf9-9755-5ebd2cae6f93",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -11196,7 +11196,7 @@
                     },
                     {
                         "name": "Subtitle 6",
-                        "source_uuid": "91416789-de39-46f3-b58a-573e5d7451eb",
+                        "source_uuid": "cc7bce84-ab96-4f84-8df0-ba97005b2847",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -11251,7 +11251,7 @@
                     },
                     {
                         "name": "Title 6",
-                        "source_uuid": "2857e6e7-2284-434f-85e8-9bf38619197b",
+                        "source_uuid": "805a0578-29ad-4a12-a586-1c6f30b0cd5d",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -11306,7 +11306,7 @@
                     },
                     {
                         "name": "Titulos 6",
-                        "source_uuid": "b3e414e5-e068-458e-9ceb-8fd2835d6904",
+                        "source_uuid": "a12f78a4-0bb4-4274-b170-cd2c81de5826",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -11398,7 +11398,7 @@
         {
             "prev_ver": 536936450,
             "name": "6---NATALIA",
-            "uuid": "850d7b70-a434-4bac-96e2-3195dadb70c0",
+            "uuid": "e3fecece-adbd-4f2a-b128-ff2f92fe66e3",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
@@ -11572,7 +11572,7 @@
                     },
                     {
                         "name": "Subtitle 6",
-                        "source_uuid": "91416789-de39-46f3-b58a-573e5d7451eb",
+                        "source_uuid": "cc7bce84-ab96-4f84-8df0-ba97005b2847",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -11627,7 +11627,7 @@
                     },
                     {
                         "name": "Title 6",
-                        "source_uuid": "2857e6e7-2284-434f-85e8-9bf38619197b",
+                        "source_uuid": "805a0578-29ad-4a12-a586-1c6f30b0cd5d",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -11682,7 +11682,7 @@
                     },
                     {
                         "name": "Titulos 6",
-                        "source_uuid": "b3e414e5-e068-458e-9ceb-8fd2835d6904",
+                        "source_uuid": "a12f78a4-0bb4-4274-b170-cd2c81de5826",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -11770,7 +11770,7 @@
         {
             "prev_ver": 536936450,
             "name": "6---JUANSE",
-            "uuid": "4662cce4-c2a5-47ac-a239-a11f841a6541",
+            "uuid": "a7517bdb-bb0d-4150-90e0-38255981c648",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
@@ -11944,7 +11944,7 @@
                     },
                     {
                         "name": "Subtitle 6",
-                        "source_uuid": "91416789-de39-46f3-b58a-573e5d7451eb",
+                        "source_uuid": "cc7bce84-ab96-4f84-8df0-ba97005b2847",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -11999,7 +11999,7 @@
                     },
                     {
                         "name": "Title 6",
-                        "source_uuid": "2857e6e7-2284-434f-85e8-9bf38619197b",
+                        "source_uuid": "805a0578-29ad-4a12-a586-1c6f30b0cd5d",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -12054,7 +12054,7 @@
                     },
                     {
                         "name": "Titulos 6",
-                        "source_uuid": "b3e414e5-e068-458e-9ceb-8fd2835d6904",
+                        "source_uuid": "a12f78a4-0bb4-4274-b170-cd2c81de5826",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -12142,7 +12142,7 @@
         {
             "prev_ver": 536936450,
             "name": "Title 7",
-            "uuid": "3646845f-ef3c-4ec7-8b58-9032bfe4bfb4",
+            "uuid": "0bb15f8d-e730-4c2b-9e1c-e6cc7ad4cd63",
             "id": "text_ft2_source",
             "versioned_id": "text_ft2_source_v2",
             "settings": {
@@ -12182,7 +12182,7 @@
         {
             "prev_ver": 536936450,
             "name": "Subtitle 7",
-            "uuid": "3f0f1e93-9437-4c41-aa7c-db72eb7bfb40",
+            "uuid": "7ad725c9-30b4-4663-a1c8-176048cc5cb4",
             "id": "text_ft2_source",
             "versioned_id": "text_ft2_source_v2",
             "settings": {
@@ -12222,14 +12222,14 @@
         {
             "prev_ver": 536936450,
             "name": "FOTOS 7",
-            "uuid": "a354888f-fab4-4467-8417-7d2d71245efb",
+            "uuid": "5eb681db-5986-44d3-bca5-6eee5e33d4dc",
             "id": "slideshow",
             "versioned_id": "slideshow_v2",
             "settings": {
                 "files": [
                     {
-                        "value": "/Users/Shared/fail-fast-show/images/7.png",
-                        "uuid": "44c53400-a805-444e-a160-6351b2f3be7e",
+                        "value": "/Users/mache/Content/fail-fast-show/images/7.png",
+                        "uuid": "70d75890-d018-4868-b4ec-20ac65a90e5d",
                         "selected": false,
                         "hidden": false
                     }
@@ -12264,7 +12264,7 @@
         {
             "prev_ver": 536936450,
             "name": "7---DUO",
-            "uuid": "a70087c9-6ce8-4776-ac52-2477447b5bf6",
+            "uuid": "0838bb4a-60de-45fd-b1de-0977f132d3f6",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
@@ -12493,7 +12493,7 @@
                     },
                     {
                         "name": "Subtitle 7",
-                        "source_uuid": "3f0f1e93-9437-4c41-aa7c-db72eb7bfb40",
+                        "source_uuid": "7ad725c9-30b4-4663-a1c8-176048cc5cb4",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -12548,7 +12548,7 @@
                     },
                     {
                         "name": "Title 7",
-                        "source_uuid": "3646845f-ef3c-4ec7-8b58-9032bfe4bfb4",
+                        "source_uuid": "0bb15f8d-e730-4c2b-9e1c-e6cc7ad4cd63",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -12603,7 +12603,7 @@
                     },
                     {
                         "name": "Titulos 7",
-                        "source_uuid": "4809216b-3074-4e71-bb5c-af49fff99f8d",
+                        "source_uuid": "3ed3c4a5-141a-4f54-bbe3-bec23f440439",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -12693,7 +12693,7 @@
         {
             "prev_ver": 536936450,
             "name": "7---IMAGEN",
-            "uuid": "50d20f69-99d5-4198-8974-fa60aee5c13c",
+            "uuid": "f52efd83-f166-4a1a-bde4-c49aea198afc",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
@@ -12812,7 +12812,7 @@
                     },
                     {
                         "name": "FOTOS 7",
-                        "source_uuid": "a354888f-fab4-4467-8417-7d2d71245efb",
+                        "source_uuid": "5eb681db-5986-44d3-bca5-6eee5e33d4dc",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -12977,7 +12977,7 @@
                     },
                     {
                         "name": "Subtitle 7",
-                        "source_uuid": "3f0f1e93-9437-4c41-aa7c-db72eb7bfb40",
+                        "source_uuid": "7ad725c9-30b4-4663-a1c8-176048cc5cb4",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -13032,7 +13032,7 @@
                     },
                     {
                         "name": "Title 7",
-                        "source_uuid": "3646845f-ef3c-4ec7-8b58-9032bfe4bfb4",
+                        "source_uuid": "0bb15f8d-e730-4c2b-9e1c-e6cc7ad4cd63",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -13087,7 +13087,7 @@
                     },
                     {
                         "name": "Titulos 7",
-                        "source_uuid": "4809216b-3074-4e71-bb5c-af49fff99f8d",
+                        "source_uuid": "3ed3c4a5-141a-4f54-bbe3-bec23f440439",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -13179,7 +13179,7 @@
         {
             "prev_ver": 536936450,
             "name": "7---NATALIA",
-            "uuid": "88297a75-ec54-4cd5-bc10-051746e793d1",
+            "uuid": "40bb7a30-809a-4eb6-af7a-947166d358b6",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
@@ -13353,7 +13353,7 @@
                     },
                     {
                         "name": "Subtitle 7",
-                        "source_uuid": "3f0f1e93-9437-4c41-aa7c-db72eb7bfb40",
+                        "source_uuid": "7ad725c9-30b4-4663-a1c8-176048cc5cb4",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -13408,7 +13408,7 @@
                     },
                     {
                         "name": "Title 7",
-                        "source_uuid": "3646845f-ef3c-4ec7-8b58-9032bfe4bfb4",
+                        "source_uuid": "0bb15f8d-e730-4c2b-9e1c-e6cc7ad4cd63",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -13463,7 +13463,7 @@
                     },
                     {
                         "name": "Titulos 7",
-                        "source_uuid": "4809216b-3074-4e71-bb5c-af49fff99f8d",
+                        "source_uuid": "3ed3c4a5-141a-4f54-bbe3-bec23f440439",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -13551,7 +13551,7 @@
         {
             "prev_ver": 536936450,
             "name": "7---JUANSE",
-            "uuid": "587da7bd-4985-4cc0-9dc7-49e3af32efcd",
+            "uuid": "e6015b94-4562-46cc-8b47-8eed04ecc67f",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
@@ -13725,7 +13725,7 @@
                     },
                     {
                         "name": "Subtitle 7",
-                        "source_uuid": "3f0f1e93-9437-4c41-aa7c-db72eb7bfb40",
+                        "source_uuid": "7ad725c9-30b4-4663-a1c8-176048cc5cb4",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -13780,7 +13780,7 @@
                     },
                     {
                         "name": "Title 7",
-                        "source_uuid": "3646845f-ef3c-4ec7-8b58-9032bfe4bfb4",
+                        "source_uuid": "0bb15f8d-e730-4c2b-9e1c-e6cc7ad4cd63",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -13835,7 +13835,7 @@
                     },
                     {
                         "name": "Titulos 7",
-                        "source_uuid": "4809216b-3074-4e71-bb5c-af49fff99f8d",
+                        "source_uuid": "3ed3c4a5-141a-4f54-bbe3-bec23f440439",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
