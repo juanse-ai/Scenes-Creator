@@ -30,8 +30,13 @@ RAIZ_SHOW = "/Users/Shared/fail-fast-show"
 # El modo elegido con los botones via "Interact" es estado en memoria del
 # navegador y NO se guarda en el Scene Collection, así que cada fuente de
 # overlay debe cargar la URL con su parámetro fijo.
-# La ruta es relativa a la raíz del show, sin importar lo que traiga el export.
-OVERLAY_HTML = "overlay/failfast-overlay.html"
+#
+# Ruta absoluta del HTML del overlay en disco. Cámbiala en este único lugar
+# para apuntar a otra ubicación. Las fuentes de overlay quedan como archivo
+# local (is_local_file=True + local_file apuntando aquí). A diferencia del
+# resto de rutas del show, esta NO se re-rootea a la raíz compartida: se
+# escribe tal cual en el output.
+OVERLAY_LOCAL_FILE = "/Users/mache/Content/fail-fast-show/overlay/failfast-overlay.html"
 OVERLAY_QUERY = {
     "Overlay Duo": "scene=duo",
     "Overlay Imagen 1:1": "scene=image",
@@ -139,17 +144,17 @@ def limpiar_scripts(data):
     return quitados
 
 
-def corregir_overlays(gen, raiz, verificar_disco):
-    """Apunta cada fuente de overlay a OVERLAY_HTML (bajo la raíz del show) con
-    su query string de layout.
+def corregir_overlays(gen):
+    """Apunta cada fuente de overlay al archivo local del overlay
+    (OVERLAY_LOCAL_FILE): is_local_file=True y local_file a esa ruta fija. Deja
+    además en 'url' la URL file:// con su query string de layout.
 
     Devuelve la lista de overlays corregidos. Idempotente: si la fuente ya
-    apunta a la URL correcta, no la toca.
+    quedó como archivo local con la ruta y la URL correctas, no la toca.
     """
-    ruta = os.path.join(raiz, OVERLAY_HTML)
-    if verificar_disco and not os.path.exists(ruta):
-        advertir(f"el overlay no existe en disco: {ruta}")
-    base_url = "file://" + pathname2url(ruta)
+    if not os.path.exists(OVERLAY_LOCAL_FILE):
+        advertir(f"el overlay no existe en disco: {OVERLAY_LOCAL_FILE}")
+    base_url = "file://" + pathname2url(OVERLAY_LOCAL_FILE)
     corregidos = []
     for nombre, query in OVERLAY_QUERY.items():
         src = gen.buscar_source(nombre)
@@ -161,12 +166,34 @@ def corregir_overlays(gen, raiz, verificar_disco):
             continue
         s = src["settings"]
         url = f"{base_url}?{query}"
-        if s.get("url") == url and not s.get("is_local_file"):
+        if (s.get("is_local_file") and s.get("local_file") == OVERLAY_LOCAL_FILE
+                and s.get("url") == url):
             continue
-        s["is_local_file"] = False
+        s["is_local_file"] = True
+        s["local_file"] = OVERLAY_LOCAL_FILE
         s["url"] = url
         corregidos.append(f"{nombre} -> ?{query}")
     return corregidos
+
+
+def resolver_imagen(tema, raiz, verificar_disco):
+    """Resuelve la ruta de la imagen del tema (si es relativa, la ancla a la
+    raíz del show) y avisa si no existe en disco."""
+    imagen = tema["image"]
+    if not imagen.startswith("/"):
+        imagen = os.path.join(raiz, imagen)
+    if verificar_disco and not os.path.exists(imagen):
+        advertir(f"la imagen del tema '{tema['scene']}' no existe en disco: {imagen}")
+    return imagen
+
+
+def poner_imagen_slideshow(fotos, imagen):
+    """Deja el slideshow 'fotos' con una única imagen (la del tema)."""
+    archivos = fotos["settings"].get("files", [])
+    entrada = copy.deepcopy(archivos[0]) if archivos else {"selected": False, "hidden": False}
+    entrada["value"] = imagen
+    entrada["uuid"] = str(uuid.uuid4())
+    fotos["settings"]["files"] = [entrada]
 
 
 def main():
@@ -244,16 +271,33 @@ def main():
 
     scene_order = data.setdefault("scene_order", [])
 
-    overlays_corregidos = corregir_overlays(gen, raiz, verificar_disco)
     scripts_quitados = limpiar_scripts(data)
 
     # --- Procesar temas ---
     procesados, saltados, escenas_creadas = [], [], []
+    plantilla_rellenada = None
 
     for tema in temas:
         suf = str(tema["scene"])
         nombres_escenas = [f"{suf}---{v}" for v in VARIANTES]
         existentes = [n for n in nombres_escenas if gen.buscar_escena(n) is not None]
+
+        # El tema plantilla (TEMA_PLANTILLA) no se clona: sus 4 escenas ya
+        # existen en el collection base y son las que se clonan para los demás
+        # temas. Pero SÍ se rellenan sus fuentes base (Title/Subtitle/FOTOS) con
+        # el contenido de este tema, para que la escena plantilla muestre lo que
+        # dice el JSON de temas y no el texto que venía en el collection export.
+        if suf == TEMA_PLANTILLA:
+            if len(existentes) != len(nombres_escenas):
+                morir(
+                    f"el tema plantilla '{suf}' no tiene sus 4 escenas base en el "
+                    f"collection ({', '.join(nombres_escenas)}); base incompleto"
+                )
+            title_base["settings"]["text"] = tema["title"]
+            subtitle_base["settings"]["text"] = tema["subtitle"]
+            poner_imagen_slideshow(fotos_base, resolver_imagen(tema, raiz, verificar_disco))
+            plantilla_rellenada = suf
+            continue
 
         if len(existentes) == len(nombres_escenas):
             saltados.append(suf)
@@ -264,11 +308,7 @@ def main():
                 f"({', '.join(existentes)}); no se puede continuar sin dejarlo inconsistente"
             )
 
-        imagen = tema["image"]
-        if not imagen.startswith("/"):
-            imagen = os.path.join(raiz, imagen)
-        if verificar_disco and not os.path.exists(imagen):
-            advertir(f"la imagen del tema '{suf}' no existe en disco: {imagen}")
+        imagen = resolver_imagen(tema, raiz, verificar_disco)
 
         # Clonar Title y Subtitle
         title_clon = copy.deepcopy(title_base)
@@ -301,11 +341,7 @@ def main():
         fotos_clon["name"] = f"{FUENTE_FOTOS} {suf}"
         gen.registrar_nombre(fotos_clon["name"])
         fotos_clon["uuid"] = gen.nuevo_uuid()
-        archivos = fotos_clon["settings"].get("files", [])
-        entrada = copy.deepcopy(archivos[0]) if archivos else {"selected": False, "hidden": False}
-        entrada["value"] = imagen
-        entrada["uuid"] = str(uuid.uuid4())
-        fotos_clon["settings"]["files"] = [entrada]
+        poner_imagen_slideshow(fotos_clon, imagen)
         remap[fotos_base["uuid"]] = (fotos_clon["name"], fotos_clon["uuid"])
 
         data["sources"].extend([title_clon, subtitle_clon, fotos_clon])
@@ -331,6 +367,12 @@ def main():
     # Re-rootear a la raíz compartida toda ruta del show que traiga el export
     data = re_rootear(data, raiz)
 
+    # Corregir los overlays DESPUÉS de re-rootear: OVERLAY_LOCAL_FILE es una
+    # ruta absoluta fija que NO debe re-escribirse a la raíz compartida. Como
+    # re_rootear reconstruye 'data', recreamos el generador sobre el nuevo árbol.
+    gen = Generador(data)
+    overlays_corregidos = corregir_overlays(gen)
+
     try:
         with open(args.output, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=4)
@@ -341,6 +383,7 @@ def main():
     print("Resumen:")
     print(f"  Collection de salida:  {data['name']}")
     print(f"  Temas procesados ({len(procesados)}): {', '.join(procesados) or '-'}")
+    print(f"  Tema plantilla rellenado: {plantilla_rellenada or '-'} (Title/Subtitle/FOTOS base)")
     print(f"  Temas saltados   ({len(saltados)}): {', '.join(saltados) or '-'}")
     print(f"  Escenas creadas  ({len(escenas_creadas)}): {', '.join(escenas_creadas) or '-'}")
     print(f"  Overlays corregidos ({len(overlays_corregidos)}):")

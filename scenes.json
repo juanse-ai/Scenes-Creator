@@ -1,74 +1,9 @@
 [
-  {
-    "scene": "1",
-    "title": "TRUMP PROHÍBE CLAUDE",
-    "subtitle": "Washington cerró el acceso al modelo Mythos para usuarios extranjeros.",
-    "image": "images/1.png"
-  },
-  {
-    "scene": "2",
-    "title": "TODO EMPEZÓ CON SK TELECOM",
-    "subtitle": "La mayor telecom de Corea del Sur encendió las alarmas por sus vínculos con China.",
-    "image": "images/2.png"
-  },
-  {
-    "scene": "3",
-    "title": "LA CASA BLANCA APUNTÓ CONTRA CLAUDE",
-    "subtitle": "Las preocupaciones por la seguridad nacional escalaron hasta la Oficina Oval.",
-    "image": "images/3.png"
-  },
-  {
-    "scene": "4",
-    "title": "AMAZON ENCONTRÓ UNA VULNERABILIDAD CRÍTICA",
-    "subtitle": "Logró superar las salvaguardas de Fable 5 y acceder a información altamente sensible.",
-    "image": "images/4.png"
-  },
-  {
-    "scene": "5",
-    "title": "TRUMP PROHIBIÓ FABLE 5",
-    "subtitle": "Una sola orden de exportación bloqueó el acceso global a los modelos afectados.",
-    "image": "images/5.png"
-  },
-  {
-    "scene": "6",
-    "title": "MYTHOS ENCONTRÓ 271 VULNERABILIDADES EN FIREFOX",
-    "subtitle": "Fallas que sobrevivieron años de auditorías fueron descubiertas en cuestión de días.",
-    "image": "images/6.png"
-  },
-  {
-    "scene": "7",
-    "title": "MYTHOS TAMBIÉN ENCONTRÓ FALLAS EN LINUX",
-    "subtitle": "Algunas vulnerabilidades ya estaban siendo explotadas por hackers norcoreanos.",
-    "image": "images/7.png"
-  },
-  {
-    "scene": "8",
-    "title": "MYTHOS PUEDE REPLICARSE CON MODELOS ABIERTOS",
-    "subtitle": "Investigadores reprodujeron varios hallazgos usando modelos públicos mucho más económicos.",
-    "image": "images/8.png"
-  },
-  {
-    "scene": "9",
-    "title": "EL OPEN SOURCE YA ESTÁ A SOLO CUATRO MESES",
-    "subtitle": "La brecha con los modelos más avanzados se redujo drásticamente en apenas un año.",
-    "image": "images/9.png"
-  },
-  {
-    "scene": "10",
-    "title": "EN UN AÑO CUALQUIERA TENDRÁ ESTE PODER",
-    "subtitle": "James Clark asegura que estas capacidades pronto estarán al alcance de todos.",
-    "image": "images/10.png"
-  },
-  {
-    "scene": "11",
-    "title": "ES UN TEMA DE SOBERANÍA NACIONAL",
-    "subtitle": "Europa respondió con dureza y acusó a Washington de actuar por interés propio.",
-    "image": "images/11.png"
-  },
-  {
-    "scene": "12",
-    "title": "EE. UU. Y CHINA CONTROLAN EL 90%",
-    "subtitle": "Dos países concentran casi toda la infraestructura mundial para entrenar IA.",
-    "image": "images/12.png"
-  }
+{"scene": "1", "title": "COLOMBIA NO VEÍA ESTO DESDE RAPPI", "subtitle": "Addi acaba de cerrar una ronda de 85 millones de dólares", "image": "images/1.png"},
+{"scene": "2", "title": "ADDI ROMPIÓ LA SEQUÍA DE CAPITAL", "subtitle": "sin importar que ya rentables.", "image": "images/2.png"},
+{"scene": "3", "title": "TRES MILLONES DE CLIENTES LA RESPALDAN", "subtitle": "hoy trabaja con más de 39.000 comercios en el país.", "image": "images/3.png"},
+{"scene": "4", "title": "ESTO ES BNPL: COMPRA AHORA, PAGA DESPUÉS", "subtitle": "Addi le presta al cliente y le paga de contado al comercio, sin tarjeta de crédito de por medio.", "image": "images/4.png"},
+{"scene": "5", "title": "LA BANCA GLOBAL YA LE APOSTABA FUERTE", "subtitle": "Citigroup y J.P. Morgan cerraron titularizaciones y un crédito estructurado de 150 millones de dólares.", "image": "images/5.png"},
+{"scene": "6", "title": "EL ESTADO TAMBIÉN LE DIO VÍA LIBRE", "subtitle": "La Superintendencia Financiera la autorizó para captar depósitos como entidad regulada.", "image": "images/6.png"},
+{"scene": "7", "title": "OCHENTA Y CINCO MILLONES DE DÓLARES MÁS", "subtitle": "Citius lideró la Serie D con BTG Pactual como coliderador principal.", "image": "images/7.png"}
 ]
